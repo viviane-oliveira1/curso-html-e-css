@@ -1,0 +1,266 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* Cabeçalho e rodapé das páginas */
+header {
+    background: #BBBBBB;
+}
+
+.cabecalho {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+    height: 200px;
+}
+
+.logoHeader {
+    height: 190px;
+    margin: 5px 0;
+}
+
+.navegacao-principal {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+}
+
+.navegacao-principal li {
+    font-size: 1em;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.navegacao-principal a {
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.navegacao-principal a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+/* Home */
+.banner-cadeira {
+    width: 100%;
+    height: 400px;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 0.7em;
+    clear: left;
+}
+
+.utensilios {
+    float: left;
+    width: 120px;
+    margin: 0 20px 20px 0;
+}
+
+.paragrafo-home {
+    margin: 0 0 1em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.principal-home {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal-home strong {
+    font-weight: bold;
+}
+
+.principal-home em {
+    font-style: italic;
+}
+
+.mapa {
+    height: 400px;
+}
+
+.mapa-content {
+    width: 100%;
+    display: flex;
+}
+
+.mapsGoogle {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.beneficios {
+    width: 100%;
+
+}
+
+.lista-itens {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    height: 350px;
+    padding: 30px 300px;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    background: linear-gradient(#fefefe, #dbb25e);
+}
+
+.itens {
+    font-style: italic;
+    font-size: 1.4em;
+    line-height: 2.1em;
+}
+
+.itens:before {
+    content: "➜ ";
+}
+
+.imagemBeneficios {
+    width: 40%;
+    height: 350px;
+    border-radius: 3px;
+    justify-content: flex-end;
+}
+
+/* Página Produto*/
+.produtos {
+    width: 940px;
+    margin: 50px auto;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+}
+
+.produtos li {
+    display: inline-block;
+    height: 430px;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.45%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+/* Contato */
+
+.form {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+.paragrafo-contato {
+    display: block;
+    font-size: 1em;
+    margin: 4px 0 2px 5px;
+}
+
+.bloco-contato {
+    margin-bottom: 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 6px 15px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+#horario-atendimento {
+    width: 10%;
+    padding: 4px 5px;
+    background: #fcfcfc;
+    border-radius: 4px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 17px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1562ae;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #0b4a88;
+    transform: scale(1.05);
+}
+
+table {
+    margin: 70px 0 80px 0;
+}
+
+thead {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    width: 50%;
+    padding: 8px 30px;
+    border: #000000 solid 1px;
+    text-align: center;
+}

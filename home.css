@@ -1,48 +1,52 @@
-.header {
+header {
     background: #BBBBBB;
     padding: 20px 0;
 }
 
 .cabecalho {
-    background: #DDDDDD;
     position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px 0
-}
-
-.titulo-principal {
+    width: 940px;
     margin: 0 auto;
 }
 
 nav {
     position: absolute;
-    top: 60px;
-    right: 10px;
+    top: 110px;
+    right: 0;
+    width: 450px;
 }
 
 nav li {
     display: inline-block;
-    top: 0;
-    right: 50px;
+    margin: 0 0 0 15px;
 }
 
-li {
-    font-size: 20px;
-    margin-left: 10px;
+nav a {
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    font-size: 23px;
 }
 
 .banner-cadeira {
     width: 100%;
-    border-top: 6px #000000 solid;
+    border-top: 2px #000000 solid;
 }
 
-.principal {
+.principal-home {
     background: #CCCCCC;
     padding: 15px;
 }
 
-.titulo-secundario {
+.secundario-home {
     text-align: center;
 }
 
@@ -53,16 +57,6 @@ p {
 #missao {
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
 
 em strong {
     color: #FF0000;
